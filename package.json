@@ -1,0 +1,11 @@
+{
+  "name": "firstapp",
+  "version": "1.0.0",
+  "description": "this is my first app with Sammuel using node.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dominic B",
+  "license": "ISC"
+}
