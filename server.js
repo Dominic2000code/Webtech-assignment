@@ -12,7 +12,7 @@ app.use(express.static(__dirname + '/public'));
 
 
 
-const Port = 2000
+const Port = process.env.PORT || 2000
 app.listen(Port,function(){
     console.log(`Server is listening on port ${Port}`)
 })
