@@ -1,11 +1,16 @@
 {
-  "name": "firstapp",
+  "name": "WEB_TECH Assignment",
   "version": "1.0.0",
-  "description": "this is my first app with Sammuel using node.js",
+  "description": "web tech assignment",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "author": "Dominic B",
-  "license": "ISC"
+  "author": "Dominic Bluawofogbe",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1"
+  }
 }
