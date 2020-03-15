@@ -12,7 +12,7 @@
 <body>
     <!-- this is the navbar -->
     <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Student_List</a>
+        <a class="navbar-brand" href="#">GIMPA</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
@@ -39,12 +39,12 @@
         </div>
     </nav>
     <!-- End of nav bar -->
-        <div class="container">    
+        <div class="container ">    
             <div class="row row-cols-2">
                 <%let i = 0; students.forEach((student, i) => { %>
                 <div class="col">
                     <div class="card shadow" style="width: 18rem;">
-                        <img src="<%= student.image %>" class="card-img-top" alt="...">
+                    <a href="/studentdetails/<%= i %>"><img src="<%= student.image %>" class="card-img-top" alt="..."></a> 
                         <div class="card-body">
                         <h5 class="card-title"> <strong>Name:</strong> <%= student.name %></h5>
                         <p class="card-text"> <strong>D.O.B:</strong> <%= student.DOB %></p>

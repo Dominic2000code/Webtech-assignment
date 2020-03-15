@@ -10,7 +10,23 @@
     <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="container mt-5">
+    <!-- this is the navbar -->
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">GIMPA</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+            <a class="nav-link" href="#">Students <span class="sr-only">(current)</span></a>
+            </li>
+        </ul>
+        </div>
+    </nav>
+    <!-- End of nav bar -->
+
+    <div class="container mt-5 col-lg-3">
         <div class="jumbotron pt-5 pb-5 shadow"><h3><%= student.name %></h3></div>
         <div class="card mb-3 center" style="max-width: 240px;">
             <div class="col">
